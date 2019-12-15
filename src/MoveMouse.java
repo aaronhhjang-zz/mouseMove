@@ -4,8 +4,8 @@ import java.awt.PointerInfo;
 import java.awt.Robot;
 
 public class MoveMouse {
-	public static final int WAIT_MIN = 1; // change this to modify waiting time
-	public static final int WAIT_MILLISEC = 1000; // min * 60 s/min * 1000 ms/s
+	public static final int WAIT_MIN = 3; // change this to modify waiting time
+	public static final int WAIT_MILLISEC = WAIT_MIN * 60 * 1000; // min * 60 s/min * 1000 ms/s
 	public static final int MOVE_BY_PIXEL = 1; // in pixel
 
 	public static void main(String... args) throws Exception {
